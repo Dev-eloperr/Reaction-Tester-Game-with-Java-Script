@@ -1,0 +1,46 @@
+.heading{
+    text-align: center;
+}
+#appear{
+    display: none;
+}
+#btn{
+    background-color: green;
+    color: blue;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px;
+}
+#stop_btn{
+    background-color: red;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px;
+}
+#textInShape{
+
+    color: white;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    line-height: 100px;
+    padding-left: 8px;
+}
+#shape{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    text-align: center;
+}
+#timeShow{
+    color: gray;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
